@@ -102,12 +102,3 @@ main {
   color: var(--Grey-900);
   background: var(--Green);
 }
-
-.attribution {
-  padding: 12px;
-  font-size: 0.6875rem;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
