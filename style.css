@@ -9,6 +9,8 @@
 
   --White: hsl(0, 0%, 100%);
 
+  --light-white: #fafafa;
+
   --Grey-700: hsl(0, 0%, 20%);
   --Grey-800: hsl(0, 0%, 12%);
   --Grey-900: hsl(0, 0%, 8%);
@@ -23,7 +25,7 @@ body {
   justify-content: space-evenly;
   min-height: 100dvh;
 
-  color: #fafafa;
+  color: var(--light-white);
   background: var(--Grey-900);
 }
 
@@ -32,10 +34,9 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 350px;
+  max-width: 22rem;
 
   gap: 8px;
-  margin: 18px 8px;
   padding: 36px 24px;
   border: 3px solid var(--Grey-700);
   border-radius: 12px;
@@ -83,7 +84,7 @@ main {
   justify-content: center;
 
   background: var(--Grey-700);
-  color: #fafafa;
+  color: var(--light-white);
   width: 100%;
   gap: 4px;
   padding: 12px 18px;
@@ -103,6 +104,7 @@ main {
 }
 
 .attribution {
+  padding: 12px;
   font-size: 0.6875rem;
   text-align: center;
 }
